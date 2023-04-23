@@ -1,0 +1,35 @@
+---
+title: Park
+layout: base
+pagination:
+    data: parks.data
+    size: 1
+    alias: park
+    addAllPagesToCollections: true
+permalink: "parks/{{park.fullName | slugify}}/"
+tags:
+    - "parks"
+eleventyComputed:
+    title: "{{ park.fullName }}"
+    img: "{{ park.images[0].url }}"
+    caption: "{{ park.images[0].caption }}"
+    description: "{{ park.description }}"
+---
+
+<h1>{{ park.fullName }}</h1>
+<p>{{ park.description }}</p>
+<a href="{{ park.url }}">More information can be here</a>
+<ul class="gallery">
+  {% for image in park.images %}
+    <li>
+      <h2>{{ image.title }}</h2>
+      <figure>
+        <img src="{{ image.url }}" alt="{{ image.altText }}">
+        <figcaption>
+          <span>{{ image.caption }}</span>
+          <span>{{ image.credit }}</span>
+        </figcaption>
+      </figure>
+    </li>
+  {% endfor %}
+</ul>
