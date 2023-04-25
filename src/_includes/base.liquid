@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} | Document</title>
+    <link rel="stylesheet" href="/assets/styles/main.css">
+  </head>
+  <body>
+    <header>
+      <h1>CSCI E-114 Homework Assignment 02</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/hello/">Hello Test</a>
+        <a href="/maine/">Maine Parks</a>
+        <a href="/massachusetts/">Mass Parks</a>
+        <a href="/all-parks/">All Parks</a>
+      </nav>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+
+    {% render "footer" %}
+
+  </body>
+</html>
