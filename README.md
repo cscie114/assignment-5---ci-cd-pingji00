@@ -1,26 +1,49 @@
-### Starter code for Assignment 4 - Gatsby
-#### Harvard CSCI E114
+<p align="center">
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby Minimal Starter
+</h1>
 
-This is a gatsby website of national parks. To run it, 
-1. get the [API key](https://www.nps.gov/subjects/developer/) and save it in a `.env` file
-2. run `npm build`
-3. visit it at (http://localhost:8000/)
+## 🚀 Quick start
 
-### Assignment requiement
-#### React components
-1. `components/layout.js`
-2. `components/seo.js`
+1.  **Create a Gatsby site.**
 
-#### Data sources
-* remote API: `gatsby-node.js`
-* file system: `data/states.js`
-* use two source together `pages/parks/{park.parkCode}.js`, `localhost:8000/parks/grsp/`
+    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-#### Create pages from data programmatically
-* one page per element in the set: `components/park.js`
-* a page that lists and links to each of the pages of that data set: `pages/parks/{park.parkCode}.js`
+    ```shell
+    # create a new Gatsby site using the minimal starter
+    npm init gatsby
+    ```
 
-#### Static and dynamic Images
-* both static and dynamic image are on `pages/index.js`
-* the hero image is staic image.
-* the thumbnails under it are dynmaic iamges. the source is from `data/acadimg.json`
+2.  **Start developing.**
+
+    Navigate into your new site’s directory and start it up.
+
+    ```shell
+    cd my-gatsby-site/
+    npm run develop
+    ```
+
+3.  **Open the code and start customizing!**
+
+    Your site is now running at http://localhost:8000!
+
+    Edit `src/pages/index.js` to see your site update in real-time!
+
+4.  **Learn more**
+
+    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+## 🚀 Quick start (Netlify)
+
+Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
+
+[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)

@@ -1,54 +1,28 @@
 {
-  "name": "assignment-4-gatsby",
+  "name": "my-gatsby-site",
   "version": "1.0.0",
   "private": true,
-  "description": "assignment-4-gatsby",
-  "author": "Harvard-DCE-CSCIE3",
+  "description": "my-gatsby-site",
+  "author": "Ping Ji",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby clean && gatsby develop",
+    "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "lint": "eslint --ext js,jsx src",
-    "jest": "jest",
-    "test": "npm run test:unit",
-    "test:unit": "jest --passWithNoTests",
-    "test:e2e": "cypress run"
+    "clean": "gatsby clean"
   },
   "dependencies": {
-    "@11ty/eleventy-fetch": "^4.0.0",
-    "@fortawesome/fontawesome-svg-core": "^6.4.0",
-    "@fortawesome/free-solid-svg-icons": "^6.4.0",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "gatsby": "^5.8.0",
-    "gatsby-plugin-image": "^3.8.0",
-    "gatsby-plugin-remote-images": "^3.6.5",
-    "gatsby-plugin-sass": "^6.8.0",
-    "gatsby-plugin-sharp": "^5.8.1",
-    "gatsby-remark-images": "^7.8.0",
-    "gatsby-source-filesystem": "^5.8.0",
-    "gatsby-transformer-remark": "^6.8.0",
-    "gatsby-transformer-sharp": "^5.8.0",
+    "gatsby": "^5.9.0",
+    "gatsby-plugin-image": "^3.9.0",
+    "gatsby-plugin-sass": "^6.9.0",
+    "gatsby-plugin-sharp": "^5.9.0",
+    "gatsby-source-filesystem": "^5.9.0",
+    "gatsby-transformer-sharp": "^5.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.62.0"
-  },
-  "overrides": {
-    "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
-      "react": "^18.2.0"
-    }
-  },
-  "devDependencies": {
-    "dotenv": "^16.0.3",
-    "eslint": "^8.39.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.7.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.32.2"
   }
 }
