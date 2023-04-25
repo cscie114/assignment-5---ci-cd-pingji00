@@ -1,5 +1,6 @@
 node_modules
-dist
+public
 .cache
+.11tycache
 .env
 .DS_Store

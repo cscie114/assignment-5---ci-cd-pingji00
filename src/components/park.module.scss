@@ -1,0 +1,26 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    li {
+        --padding: 1rem;
+        margin: 0;
+        background-color:#efefef;
+        img {
+            width: 100%;
+            object-fit: cover;
+            aspect-ratio: 4/3
+        }
+    }
+    .credit {
+        font: italic normal 0.8em/1.1 sans-serif;
+        padding: 0 var(--padding);
+        margin-top: 0.5em;
+    }
+    .caption {
+        padding: 0 var(--padding)
+    }
+}

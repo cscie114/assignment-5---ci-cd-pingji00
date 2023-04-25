@@ -1,0 +1,30 @@
+[
+    {
+        "credit": "NPS / Kristi Rugg",
+        "title": "Acadia's rocky coastline",
+        "altText": "Large puffy clouds dot a brilliant blue sky as wave crash against the rocky coastline of Acadia.",
+        "caption": "Millions of people come to Acadia for our distinctive rocky coastline.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C7B45AE-1DD8-B71B-0B7EE131C7DFC2F5.jpg"
+    },
+    {
+        "credit": "NPS / Kristi Rugg",
+        "title": "Heavy snow-laden trees",
+        "altText": "Hiking tracks carved through three feet of snow wind through a heavy snow-laden forest.",
+        "caption": "During the colder months snows transform our landscape into a winter wonderland.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C7B4BEC-1DD8-B71B-0B2CF833F93140FF.jpg"
+    },
+    {
+        "credit": "NPS / Kristi Rugg",
+        "title": "Sunset atop Cadillac Mountain",
+        "altText": "A brilliant sunset filled with hues of blue, red, orange, magenta, and purple highlight the sky.",
+        "caption": "As the tallest point on the eastern seaboard Cadillac Mountain provides fantastic viewpoints.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C7B477B-1DD8-B71B-0BCB48E009241BAA.jpg"
+    },
+    {
+        "credit": "NPS / Kristi Rugg",
+        "title": "Climbing The Precipice",
+        "altText": "Two hikers ascend a sheer cliff trail by way of historic iron rung ladders.",
+        "caption": "Whether it's a stroll along Ocean Path or a difficult ascent up The Precipice, there are hiking trails for everyone!",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C7B48F9-1DD8-B71B-0BD3B413E58978F8.jpg"
+    }
+]
