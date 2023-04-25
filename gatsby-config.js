@@ -27,6 +27,7 @@ module.exports = {
         path: `${__dirname}/src/data/`,
       },
     },
+    
       /*
 
       /*  FOR READING IMAGES FROM FILESYSTEM AND PROCESSING THROUGH THE IMAGE PLUGINS 
