@@ -9,4 +9,4 @@ This repository holds the starter code for assignment 5, in which we practice th
 
 ## Netlify site
 
-Visit https://cscie114-cicd.netlify.app [https://cscie114-cicd.netlify.app]
+Visit [https://cscie114-cicd.netlify.app](https://cscie114-cicd.netlify.app).
