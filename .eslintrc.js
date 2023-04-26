@@ -12,6 +12,18 @@ module.exports = {
     'sourceType': 'module',
   },
   'rules': {
-    'max-len': 'off'
+    'max-len': 'off',
+    'require-jsdoc': [
+      'error',
+      {
+        require: {
+          FunctionDeclaration: false,
+          MethodDefinition: false,
+          ClassDeclaration: false,
+          ArrowFunctionExpression: false,
+          FunctionExpression: false,
+        },
+      },
+    ]
   },
 };
