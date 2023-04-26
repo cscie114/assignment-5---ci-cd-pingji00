@@ -1,5 +1,5 @@
 {
-  "name": "assignment-2-eleventy-pingji00",
+  "name": "assignment-5-eleventy-cicd",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cscie114/assignment-2-eleventy-pingji00.git"
+    "url": "git+https://github.com/cscie114/assignment-5---ci-cd-pingji00.git"
   },
   "keywords": [],
   "author": "Ping Ji",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cscie114/assignment-2-eleventy-pingji00/issues"
+    "url": "https://github.com/cscie114/assignment-5---ci-cd-pingji00/issues"
   },
-  "homepage": "https://github.com/cscie114/assignment-2-eleventy-pingji00#readme",
+  "homepage": "https://github.com/cscie114/assignment-5---ci-cd-pingji00#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-fetch": "^3.0.0",
