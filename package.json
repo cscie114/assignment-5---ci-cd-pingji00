@@ -1,36 +1,41 @@
 {
-  "name": "assignment-5-eleventy-cicd",
+  "name": "assignment-5-cicd",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "assignment-5-cicd-gatsby",
+  "author": "Ping Ji",
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
-    "lint": "eslint --ext js,jsx src",
-    "jest": "jest",
+    "develop": "gatsby develop",
+    "start": "gatsby clean && gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
     "test": "npm run test:unit",
     "test:unit": "jest --passWithNoTests",
-    "test:e2e": "cypress run",
-    "build": "eleventy",
-    "start": "eleventy --serve"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cscie114/assignment-5---ci-cd-pingji00.git"
-  },
-  "keywords": [],
-  "author": "Ping Ji",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cscie114/assignment-5---ci-cd-pingji00/issues"
-  },
-  "homepage": "https://github.com/cscie114/assignment-5---ci-cd-pingji00#readme",
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-fetch": "^3.0.0",
-    "dotenv": "^16.0.3",
-    "eslint": "^8.39.0",
-    "eslint-config-google": "^0.14.0"
+    "lint": "eslint --ext js,jsx src"
   },
   "dependencies": {
-    "jest": "^29.5.0"
+    "gatsby": "^5.9.0",
+    "gatsby-plugin-image": "^3.9.0",
+    "gatsby-plugin-remote-images": "^3.6.6",
+    "gatsby-plugin-sass": "^6.9.0",
+    "gatsby-plugin-sharp": "^5.9.0",
+    "gatsby-source-filesystem": "^5.9.0",
+    "gatsby-transformer-json": "^5.9.0",
+    "gatsby-transformer-sharp": "^5.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.62.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2"
   }
 }

@@ -1,17 +1,25 @@
 module.exports = {
-  'env': {
-    'browser': true,
-    'es2021': true,
-    'node': true,
+  env: {
+    browser: true,
+    es2021: true,
+    node: true
   },
-  'extends': 'google',
-  'overrides': [
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'standard'
   ],
-  'parserOptions': {
-    'ecmaVersion': 'latest',
-    'sourceType': 'module',
+  overrides: [
+  ],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module'
   },
-  'rules': {
+  plugins: [
+    'react'
+  ],
+  rules: {
+    'react/prop-types': 0,
     'max-len': 'off',
     'require-jsdoc': [
       'error',
@@ -25,5 +33,5 @@ module.exports = {
         },
       },
     ]
-  },
-};
+  }
+}
