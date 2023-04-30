@@ -20,7 +20,8 @@ const Layout = ({ pageTitle, children }) => {
                         </li>
                         <li>
                             <Link to='/serverless_w/'>Serverless</Link>
-                        </li>                    </ul>
+                        </li>
+                    </ul>
                 </nav>
             </header>
             <main>
