@@ -19,7 +19,7 @@ const Layout = ({ pageTitle, children }) => {
                             <Link to='/states/'>All States</Link>
                         </li>
                         <li>
-                            <Link to='/serverless/'>Serverless</Link>
+                            <Link to='/serverless_w/'>Serverless</Link>
                         </li>                    </ul>
                 </nav>
             </header>

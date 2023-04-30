@@ -1,5 +1,6 @@
 const fetch = require('node-fetch')
-const handler = async function (event, context) {
+
+exports.handler = async function (event, context) {
     const key = process.env.MOVIE_API_KEY;
     const { movieId } = event.queryStringParameters;
 
@@ -26,7 +27,7 @@ const handler = async function (event, context) {
 
     } catch(error) {
         // output to netlify function log
-        console.log(err)
+        console.log(error)
         return {
             statusCode: 500,
             //  could be a custom message or JSON.stringify(err)
@@ -35,4 +36,4 @@ const handler = async function (event, context) {
     }
 
 }
-module.exports = {handler}
+// module.exports = { handler }
