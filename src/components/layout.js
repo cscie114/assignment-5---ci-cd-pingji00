@@ -18,7 +18,9 @@ const Layout = ({ pageTitle, children }) => {
                         <li>
                             <Link to='/states/'>All States</Link>
                         </li>
-                    </ul>
+                        <li>
+                            <Link to='/serverless/'>Serverless</Link>
+                        </li>                    </ul>
                 </nav>
             </header>
             <main>
